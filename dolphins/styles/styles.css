@@ -23,11 +23,12 @@ body  {
 	display: flex;
 }
 
+
 img { max-width: 100%;}
 
 .thrColFixHdr #container {
 
-	width: 780px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	width: 90%;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
 
 	background: #F9f9FF;
 
@@ -46,7 +47,8 @@ img { max-width: 100%;}
 	flex-direction: row;
 	flex-wrap: wrap;
 	padding: 0 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
-
+	font-family: "Times New Roman", Times, serif;
+	color: #00145A;
 }
 
 .thrColFixHdr #header h1 {
@@ -59,9 +61,13 @@ img { max-width: 100%;}
 
 .thrColFixHdr #sidebar1 {
 	float: left; /* since this element is floated, a width must be given */
-	width: 160px; /* the actual width of this div, in standards-compliant browsers, or standards mode in Internet Explorer will include the padding and border in addition to the width */
+
 	background: #Fff; /* the background color will be displayed for the length of the content in the column, but no further */
-	padding: 15px 10px 15px 20px; /* padding keeps the content of the div away from the edges */
+
+	font-family: "Times New Roman", Times, serif;
+
+	color: #00145A;
+
 	text-decoration: none;
 }
 
@@ -69,19 +75,21 @@ img { max-width: 100%;}
 
 	float: right; /* since this element is floated, a width must be given */
 
-	width: 160px; /* the actual width of this div, in standards-compliant browsers, or standards mode in Internet Explorer will include the padding and border in addition to the width */
-
 	background: #Fff; /* the background color will be displayed for the length of the content in the column, but no further */
 
-	padding: 15px 10px 15px 20px; /* padding keeps the content of the div away from the edges */
+	font-family: "Times New Roman", Times, serif;
+
+	color: #00145A;
 
 }
 
 .thrColFixHdr #mainContent {
 
-	margin: 0 200px; /* the right and left margins on this div element creates the two outer columns on the sides of the page. No matter how much content the sidebar divs contain, the column space will remain. You can remove this margin if you want the #mainContent div's text to fill the sidebar spaces when the content in each sidebar ends. */
+	font-family: "Times New Roman", Times, serif;
 
-	padding: 0 10px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	color: #00145A;
+
+	margin: 0 auto;
 
 }
 
@@ -135,11 +143,11 @@ img { max-width: 100%;}
 
 }
 
-body,td,th {
+body,td,th, a {
 
-	font-family: Times New Roman, Times, serif;
+	font-family: "Times New Roman", Times, serif;
 
-	font-size: 1rem;
+	font-size: 1.25rem;
 
 	color: #00145A;
 
