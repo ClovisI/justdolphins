@@ -30,7 +30,7 @@ img { max-width: 100%;
 
 #dolphin {
 	float: -2rem right;
-	width: 50%;
+	width: 28%;
 	height: 50%;
 	margin-left: 5.5rem;
 	margin-top: 1rem;
@@ -172,6 +172,10 @@ body,td,th, a {
 
 }
 
+#bottom-link {
+	margin-bottom: -.5rem;
+}
+
 @media only screen and (min-width: 1024px) {
 
 }
@@ -183,12 +187,12 @@ body,td,th, a {
 @media only screen and (max-width: 520px){
 
 
-	#dolphin {
+	/* #dolphin {
 		width: 100%;
 		height: 100%;
 		margin-left: -1rem;
 
-	}
+	} */
 }
 
 @media only screen and (min-width: 321px){
@@ -198,7 +202,7 @@ body,td,th, a {
 @media only screen and (max-width: 320px){
 
 
-	#dolphin {
+	/* #dolphin {
 		width: 100%;
 		height: 100%;
 		margin-left: 1rem;
@@ -210,7 +214,7 @@ body,td,th, a {
 		height: 100%;
 		color: ;
 		/* margin-top: 10rem; */
-	}
+	} */
 
 }
 
