@@ -1,0 +1,62 @@
+#background-test {
+  background-image: url(http://www.justdolphins.com/images/background);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header {
+  /* float: left; */
+  margin: 0 0 2rem 0;
+  padding: 10rem 0 0 0;
+  width: 100%;
+  height: 100%;
+	display: flex;
+  background-image: url(http://www.justdolphins.com/images/background);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (max-width: 520px){
+
+	#dolphin {
+		width: 100%;
+		height: 100%;
+		margin-left: -1rem;
+
+	}
+}
+
+@media only screen and (min-width: 321px){
+
+}
+
+@media only screen and (max-width: 320px){
+header {
+	background-position: 25% 75%;
+	background-color: lightblue;
+	background-size: 0% 0%;
+}
+
+
+	#dolphin {
+		width: 100%;
+		height: 100%;
+		margin-left: 1rem;
+		float: center;
+	}
+	#pirate-dolphin-description {
+		/* float: center; */
+		width: 100%;
+		margin-top: 10rem;
+	}
+}
