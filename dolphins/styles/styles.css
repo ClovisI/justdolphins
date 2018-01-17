@@ -120,6 +120,8 @@ img { max-width: 100%;
 
 	color: #00145A;
 
+width: 100%;
+
 	margin: 0 auto;
 
 }
@@ -202,19 +204,7 @@ body,td,th, a {
 @media only screen and (max-width: 320px){
 
 
-	/* #dolphin {
-		width: 100%;
-		height: 100%;
-		margin-left: 1rem;
 
-	}
-	#pirate-dolphin-description {
-		float: left;
-		width: 100%;
-		height: 100%;
-		color: ;
-		/* margin-top: 10rem; */
-	} */
 
 }
 
